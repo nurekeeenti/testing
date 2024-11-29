@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main-Rules">
+<header> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="index.html">Home</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="students.html">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Training.html">Training</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Rules.html">Rules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Champions.html">Champions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Competitions.html">Competitions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Random.html">Random</a></li>
+                    <li class="nav-item"><a class="nav-link" href="to_do.html">To do list</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Sorting.html">Sorting</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registrationPage.html">Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="CheckWeather.html">Checkweather</a></li>
+                    <li class="nav-item"><a class="nav-link" href="loginpage.html">Login Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Profilepage.html">Profile Page</a></li>
+                </ul>
+                <form class="d-flex" role="search"> 
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> 
+                    <button class="btn btn-outline-success" type="submit">Search</button> 
+                </form> 
+            </div> 
+        </div> 
+    </nav> 
+</header>
+<main class="container my-4">
+    <div class="content p-4 border rounded shadow-sm bg-light">
+        <h1 class="mb-3 text-primary">Arm Wrestling Rules</h1>
+        <h2 class="mb-2">Even a strong athlete who has been going to the gym for years can lose a fight.</h2>
+        <h3 class="mb-4">You don't have to be a super athlete to beat everyone in arm wrestling. An athlete can beat even the most pumped-up guy in arm wrestling if he knows the right technique. The most important thing in this sport is a strong hand.</h3>
+        <div class="img-container mb-4">
+            <img src="Rules.jpg" alt="Wrist flexion with barbell" class="img-fluid rounded"> 
+        </div>
+        <h2 class="mb-3 text-secondary">Guidelines for Arm Wrestling Matches</h2>
+        <h3 class="mb-2">Correct Stance</h3>
+        <ul class="list-unstyled">
+            <li>Step 1: Grasp the pin with the non-working hand. Important: do not let go of the pin completely.</li>
+            <li>Step 2: Position your hands so that the grip is in the middle, with open phalanges. Important: do not cover your opponent's fingers.</li>
+            <li>Step 3: Ensure your shoulders are parallel to the table.</li>
+            <li>Step 4: Keep your elbow on the cushion on the table. You may slide your elbow, but do not pull it away.</li>
+            <li>Step 5: Get into a comfortable position. You may rest your feet on the table's legs, but ensure they do not obstruct your opponent.</li>
+        </ul>
+    </div>
+
+    <button class="btn btn-primary readMoreBtn">Read More</button>
+    <div id="extraContent" style="display:none;" class="mt-3">
+        <p>Training is essential for athletes and fitness enthusiasts. It involves various exercises and techniques aimed at improving strength, endurance, flexibility, and overall performance.</p>
+    </div>
+
+    <button class="btn btn-dark" id="themeToggleBtn">Dark Theme</button>
+</main>
+<footer class="container footer text-center mt-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6"><h1>Kuandyk Aldiyar</h1></div>
+        <div class="col-lg-4 col-md-6"><h1>Zhumagali Nursultan</h1></div>
+        <div class="col-lg-4 col-md-6"><h1>Efimov Vladimir</h1></div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/script.js"></script> 
+<img id="circle1" src="Pictures/dumbbell.png" style="width: 50px; height: 50px; position: absolute;">
+<div class="fixed-buttons">
+    <button id="playButton">Motivation</button>
+    <button id="pauseButton">Stop motivation</button>
+</div>
+<audio id="sound" src="Sounds/ronnie.mp3"></audio>
+
+<script src="JS/cursor.js"></script>
+</body>
+</html>
